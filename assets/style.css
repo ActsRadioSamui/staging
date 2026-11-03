@@ -129,6 +129,7 @@ a:hover { color: var(--red); }
   max-width: var(--measure);
   text-wrap: pretty;   /* avoids a single word on the last line */
 }
+.story-text p + p { margin-top: 1em; }   /* space between the About paragraphs */
 @media (min-width: 60rem) {
   .story {
     max-width: calc(68rem + 2 * var(--gutter));
@@ -142,6 +143,7 @@ a:hover { color: var(--red); }
   .story-photo img { border-radius: 6px; }
   .story-text { padding: 0; }
   .story-text p { margin: 0; }
+  .story-text p + p { margin-top: 1em; }
 }
 
 /* ---------- Get involved ---------- */
