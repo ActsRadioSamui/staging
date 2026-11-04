@@ -136,7 +136,7 @@ a:hover { color: var(--red); }
     margin-left: auto;
     margin-right: auto;
     padding: 0 var(--gutter);
-    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);   /* photo two-thirds, text one-third */
     column-gap: 3rem;
     align-items: stretch;
   }
